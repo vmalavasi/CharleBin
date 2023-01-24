@@ -42,38 +42,38 @@ if ($SYNTAXHIGHLIGHTING) :
 endif;
 ?>
 		<noscript><link type="text/css" rel="stylesheet" href="css/noscript.css" /></noscript>
-		<script type="text/javascript" data-cfasync="false" src="js/jquery-3.6.1.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/jquery-3.6.1.js" crossorigin="anonymous"></script>
 <?php
 if ($QRCODE) :
 ?>
-		<script async type="text/javascript" data-cfasync="false" src="js/kjua-0.9.0.js" integrity="sha512-CVn7af+vTMBd9RjoS4QM5fpLFEOtBCoB0zPtaqIDC7sF4F8qgUSRFQQpIyEDGsr6yrjbuOLzdf20tkHHmpaqwQ==" crossorigin="anonymous"></script>
+		<script async type="text/javascript" data-cfasync="false" src="js/kjua-0.9.0.js" crossorigin="anonymous"></script>
 <?php
 endif;
 if ($ZEROBINCOMPATIBILITY) :
 ?>
-		<script type="text/javascript" data-cfasync="false" src="js/base64-1.7.js" integrity="sha512-JdwsSP3GyHR+jaCkns9CL9NTt4JUJqm/BsODGmYhBcj5EAPKcHYh+OiMfyHbcDLECe17TL0hjXADFkusAqiYgA==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/base64-1.7.js" crossorigin="anonymous"></script>
 <?php
 endif;
 ?>
-		<script type="text/javascript" data-cfasync="false" src="js/zlib-1.2.13.js" integrity="sha512-Lv4PCbSge8B4odE2blatgggJ/mkX1Ak21e7jL8mY3vzrVHS8FGsrEoqCrizxIJB4sW3T2w5Q+RG7hhUvp7+9tw==" crossorigin="anonymous"></script>
-		<script type="text/javascript" data-cfasync="false" src="js/base-x-4.0.0.js" integrity="sha512-nNPg5IGCwwrveZ8cA/yMGr5HiRS5Ps2H+s0J/mKTPjCPWUgFGGw7M5nqdnPD3VsRwCVysUh3Y8OWjeSKGkEQJQ==" crossorigin="anonymous"></script>
-		<script type="text/javascript" data-cfasync="false" src="js/rawinflate-0.3.js" integrity="sha512-g8uelGgJW9A/Z1tB6Izxab++oj5kdD7B4qC7DHwZkB6DGMXKyzx7v5mvap2HXueI2IIn08YlRYM56jwWdm2ucQ==" crossorigin="anonymous"></script>
-		<script type="text/javascript" data-cfasync="false" src="js/bootstrap-3.4.1.js" integrity="sha512-oBTprMeNEKCnqfuqKd6sbvFzmFQtlXS3e0C/RGFV0hD6QzhHV+ODfaQbAlmY6/q0ubbwlAM/nCJjkrgA3waLzg==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/zlib-1.2.13.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/base-x-4.0.0.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/rawinflate-0.3.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/bootstrap-3.4.1.js" crossorigin="anonymous"></script>
 <?php
 if ($SYNTAXHIGHLIGHTING) :
 ?>
-		<script type="text/javascript" data-cfasync="false" src="js/prettify.js?<?php echo rawurlencode($VERSION); ?>" integrity="sha512-puO0Ogy++IoA2Pb9IjSxV1n4+kQkKXYAEUtVzfZpQepyDPyXk8hokiYDS7ybMogYlyyEIwMLpZqVhCkARQWLMg==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/prettify.js?<?php echo rawurlencode($VERSION); ?>" crossorigin="anonymous"></script>
 <?php
 endif;
 if ($MARKDOWN) :
 ?>
-		<script type="text/javascript" data-cfasync="false" src="js/showdown-2.1.0.js" integrity="sha512-WYXZgkTR0u/Y9SVIA4nTTOih0kXMEd8RRV6MLFdL6YU8ymhR528NLlYQt1nlJQbYz4EW+ZsS0fx1awhiQJme1Q==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/showdown-2.1.0.js" crossorigin="anonymous"></script>
 <?php
 endif;
 ?>
-		<script type="text/javascript" data-cfasync="false" src="js/purify-2.4.6.js" integrity="sha512-+jcx+EqNbaFT4OHS86zGwU1SNAAZ7hG2pJlwMpXoe9AvTp37BrXMQ29g2GhdyQHTvYWaNlTQIkWXYM0Lvt8GiQ==" crossorigin="anonymous"></script>
-		<script type="text/javascript" data-cfasync="false" src="js/legacy.js?<?php echo rawurlencode($VERSION); ?>" integrity="sha512-LYos+qXHIRqFf5ZPNphvtTB0cgzHUizu2wwcOwcwz/VIpRv9lpcBgPYz4uq6jx0INwCAj6Fbnl5HoKiLufS2jg==" crossorigin="anonymous"></script>
-		<script type="text/javascript" data-cfasync="false" src="js/privatebin.js?<?php echo rawurlencode($VERSION); ?>" integrity="sha512-ST1B/QBH9m/TImh2pzKU88qbgwqto4N34X8bnn9+Iuye3x2pTb3aMiX5gU4gh15T7HCTw2jehB9+BtC6a/M81A==" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/purify-2.4.6.js" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/legacy.js?<?php echo rawurlencode($VERSION); ?>" crossorigin="anonymous"></script>
+		<script type="text/javascript" data-cfasync="false" src="js/privatebin.js?<?php echo rawurlencode($VERSION); ?>" crossorigin="anonymous"></script>
 		<!-- icon -->
 		<link rel="apple-touch-icon" href="<?php echo I18n::encode($BASEPATH); ?>img/apple-touch-icon.png" sizes="180x180" />
 		<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
