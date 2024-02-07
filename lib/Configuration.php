@@ -59,9 +59,7 @@ class Configuration
             'httpwarning'              => true,
             'compression'              => 'zlib',
         ),
-        'expire' => array(
-            'default' => '1month',
-        ),
+        'expire' => array('default' => '1month'),
         'expire_options' => array(
             '5min'   => 300,
             '10min'  => 600,
